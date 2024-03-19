@@ -1,6 +1,8 @@
 # Initialize the project first using
 
-> npm init
+```shell
+npm init
+```
 
 ## Create a file public
 
