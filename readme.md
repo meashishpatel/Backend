@@ -35,11 +35,30 @@ Inside the scripts block add
 > "dev": "nodemon src/index.js"
 
 ## Create folders in src
-- controllers, db, middlewares, models, routes, utils, 
 
-## Install prettier 
-``` shell
+- controllers, db, middlewares, models, routes, utils,
+
+## Install prettier
+
+```shell
 npm i -D prettier
 ```
+
 - Create another file in root .prettierrc and prettierignore
 - Write the contents in both the files for code formatting(see that on github prettier files)
+
+## Update the setting in mongoAtlas
+
+- Create new project
+- Create new cluster
+- Create new username and password
+- Config the ip allowed to 0.0.0.0/0
+- Allow the permission to user as read and write any database
+- Then go to database click on connect then cluster
+- Copy the connection string paste that in .env
+
+## Install mongoose, express, and dotenv
+
+```shell
+npm i mongoose express dotenv
+```
