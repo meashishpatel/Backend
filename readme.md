@@ -33,3 +33,13 @@ npm i -D nodemon
 Inside the scripts block add
 
 > "dev": "nodemon src/index.js"
+
+## Create folders in src
+- controllers, db, middlewares, models, routes, utils, 
+
+## Install prettier 
+``` shell
+npm i -D prettier
+```
+- Create another file in root .prettierrc and prettierignore
+- Write the contents in both the files for code formatting(see that on github prettier files)
