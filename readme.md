@@ -62,3 +62,9 @@ npm i -D prettier
 ```shell
 npm i mongoose express dotenv
 ```
+
+## Install cookie-parser and cors
+
+```shell
+npm i cookie-parser cors
+```
