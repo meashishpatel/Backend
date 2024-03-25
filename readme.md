@@ -68,3 +68,21 @@ npm i mongoose express dotenv
 ```shell
 npm i cookie-parser cors
 ```
+
+## Install aggregation
+
+```shell
+npm i mongoose-aggregate-paginate-v2
+```
+
+## Install bcrypt.js and jsonwebtoken
+
+```shell
+npm i bcrypt jsonwebtoken
+```
+
+## Make a free account on cloudinary
+
+https://cloudinary.com/users/register_free
+
+> npm install cloudinary multer
